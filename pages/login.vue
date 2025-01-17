@@ -1,16 +1,10 @@
 <template>
+  <Header />
   <div class="client-account-container">
     <!-- Header -->
-    <header class="header-container">
-      <h1 class="text-3xl font-bold text-center text-white">Please log in to continue</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+
+      <h1 class="text-3xl font-bold text-center text-black">Please log in to continue</h1>
+
 
     <!-- Form Section -->
     <div class="form-container">
@@ -51,6 +45,7 @@
 
 <script setup lang="ts">
 import { ref } from 'vue'
+import Header from "~/components/Header.vue";
 
 const clientName = ref('')
 const clientEmail = ref('')
