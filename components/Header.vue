@@ -1,11 +1,11 @@
 <template>
-  <header class="fixed w-full bg-white text-indigo-800 z-50 shadow-lg animate-slide-down">
+  <header class="fixed w-full bg-amber-50 bg-opacity-100 text-purple-950 z-50 shadow-lg animate-slide-down">
     <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between h-16">
       <button class="mobile-menu-button p-2 lg:hidden">
         <span class="material-icons-outlined text-2xl">menu</span>
       </button>
-      <div class="text-xl font-bold text-blue-900">
-        Admin<span class="text-indigo-800">Panel</span>
+      <div class="text-xl font-bold text-purple-950">
+        Hotel Artichaut
       </div>
       <div class="flex items-center space-x-2">
         <span class="material-icons-outlined p-2 text-2xl cursor-pointer hover:text-indigo-800 transition-transform duration-300 hover:scale-110 hidden md:block">search</span>
