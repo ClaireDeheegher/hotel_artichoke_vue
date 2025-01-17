@@ -3,6 +3,7 @@
 </script>
 
 <template>
+  <Header />
   <div class="h-screen w-screen bg-gray-100 pt-10">
     <div class="max-w-xl mx-auto bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
       <form class="flex-col space-y-4">
@@ -27,5 +28,9 @@
 </template>
 
 <style scoped>
+
+ .bg-gray-100 {
+    background-color: #D9BD9C;
+  }
 
 </style>
